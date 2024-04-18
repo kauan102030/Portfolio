@@ -1,4 +1,36 @@
-@media(max-width: 1280px) {
+@media(max-width: 1281px) {
+    .cabecalho .logo{
+        width: 85px;
+        height: 85px;
+        line-height: 75px;
+    }
+
+    .cabecalho .menu ul a{
+        font-size: 25px;
+    }
+
+    .home .informacoes h1{
+        font-size: 55px;
+    }
+
+    .home .informacoes p{
+        font-size: 26px;
+    }
+
+    .home .redes-sociais{
+        gap: 40px;
+    }
+
+    .home .redes-sociais a i{
+        font-size: 26px;
+    }
+
+    .home .redes-sociais a i{
+        transform: scale(1.2);
+    }
+}
+
+@media(max-width: 1200px){
     .cabecalho{
         padding: 30px;
     }
@@ -19,22 +51,261 @@
     .projetos .container-projetos{
         padding: 0 30px;
     }
+
+    .home .informacoes p{
+        width: 88%;
+    }
 }
 
-@media(max-width: 425px){
-    .home .informacoes h1{
+@media (max-width: 1201px) {
+
+    .cabecalho{
+        padding: 3% 5%;
+    }
+
+    .cabecalho .logo {
+        width: 90px;
+        height: 90px;
+        font-size: 35px;
+        line-height: 80px;
+    }
+
+    .cabecalho .menu ul a{
         font-size: 30px;
     }
 
+    .home .informacoes h1{
+        font-size: 60px;
+    }
+
     .home .informacoes p{
-        font-size: 16px;
+        width: 89%;
+        font-size: 35px;
+    }
+
+    .home .redes-sociais{
+        transform:  scale(1.3);
+        gap: 60px;
+    }
+
+    .home .container-foto{
+        margin-top: 8%;
+        transform: scale(1.25);
+    }
+
+    .projetos .titulo{
+        font-size: 55px;
+    }
+
+    .projetos .container-projetos{
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .projetos .container-projetos .projeto{
+        height: 50em;
+        width: 25em;
+    }
+
+    .projetos .btn-mostrar-projetos{
+        padding: 30px;
+        font-size: 35px;
+        width: 30%;
+    }
+}
+
+@media (max-width: 910px){
+
+    .home .informacoes{
+        gap: 30px;
+    }
+
+    .home .container-foto{
+        margin-top: 10%;
+        transform: scale(1.1);
+    }
+
+    .home .informacoes h1{
+        font-size: 55px;
+    }
+
+    .home .informacoes p{
+        width: 89%;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .home .redes-sociais{
+        margin-bottom: 30px;
+        gap: 50px;
+    }
+
+    .projetos .btn-mostrar-projetos{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 769px){
+
+    .cabecalho .logo{
+        width: 85px;
+        height: 85px;
+        font-size: 35px;
+        line-height: 75px;
+    }
+
+    .home .informacoes h1{
+        font-size: 50px;
+    }
+
+    .home .informacoes p{
+        font-size: 30px;
+    }
+
+    .home .container-foto{
+        margin-top: 8%;
+        transform: scale(1.1);
+    }
+
+    .projetos .container-projetos{
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .projetos .container-projetos .projeto{
+        height: 37.5em;
+        width: 18.75em;
+    }
+
+    .projetos .btn-mostrar-projetos{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 750px){
+    .projetos .btn-mostrar-projetos{
+        font-size: 30px;
+        width: 40%;
+    }
+    
+    .projetos .container-projetos{
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 625px){
+
+    .cabecalho{
+        padding: 3% 8%;
+    }
+
+    .home{
+        padding: 0 2%;
+    }
+
+    .cabecalho .logo{
+        width: 65px;
+        height: 65px;
+        font-size: 26px;
+        line-height: 55px;
+    }
+
+    .cabecalho .menu ul a{
+        font-size: 25px;
+    }
+
+    .home .informacoes h1{
+        font-size: 40px;
+    }
+
+    .home .informacoes p{
+        font-size: 24px;
+    }
+
+    .home .redes-sociais{
+        transform:  scale(1.05);
+        gap: 50px;
+    }
+/**/
+    .projetos .btn-mostrar-projetos{
+        font-size: 22px;
+        padding: 20px;
+        width: 45%;
+    }
+
+    .projetos .container-projetos{
+        gap: 50px;
+        margin-bottom: 25px;
+    }
+
+    .home .container-foto{
+        margin-top: 5%;
+        transform: scale(1);
+    }
+
+    .projetos .titulo{
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 560px){
+
+
+    .cabecalho .menu ul a{
+        font-size: 23px;
+    }
+
+    .home{
+        padding: 0 3%;
+    }
+
+    .home .informacoes h1{
+        font-size: 35px;
+    }
+
+    .home .informacoes p{
+        font-size: 22px;
+    }
+
+    .home .redes-sociais{
+        transform:  scale(0.8);
+        gap: 60px;
+    }
+
+    .home .container-foto .foto{
+        max-width: 350px;
+        border-radius: 50%;
+    }
+
+    .projetos .titulo{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 436px){
+    .home .informacoes h1{
+        font-size: 35px;
+    }
+
+    .home .informacoes p{
+        font-size: 20px;
     }
 
     .home .container-foto img{
         max-width: 320px;
     }
 
+    .home .container-foto .foto{
+        transform: scale(1);
+    }
+
     .projetos{
         padding: 30px;
+    }
+
+    .projetos .btn-mostrar-projetos{
+        font-size: 18px;
+        width: 70%;
     }
 }
